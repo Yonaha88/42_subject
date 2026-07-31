@@ -14,7 +14,8 @@
 │   └── push_swap         スタックを使ったソートアルゴリズム（ペア課題）
 └── milestone02/
     ├── python_module/    Pythonピスキン課題（module00〜module10）
-    └── a_maze_ing        迷路生成・探索プログラム（ペア課題）
+    ├── a_maze_ing        迷路生成・探索プログラム（ペア課題）
+    └── born2beroot       Debianサーバー構築によるシステム管理基礎課題
 ```
 
 ## Milestone 00
@@ -37,6 +38,7 @@
 | --- | --- |
 | [python_module](milestone02/python_module) | Pythonピシンの各モジュール（module00〜module10） |
 | [a_maze_ing](milestone02/a_maze_ing) | 設定ファイルから迷路を生成し、BFSで解を求めて端末に描画するプログラム（ペア課題） |
+| [born2beroot](milestone02/born2beroot) | GUIなしのセキュアなDebianサーバーをLVM暗号化パーティション・AppArmor・UFW・sudo制約・監視スクリプトで構築するシステム管理課題 |
 
 ## Author
 
