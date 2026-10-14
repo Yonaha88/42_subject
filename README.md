@@ -13,7 +13,7 @@
 │   ├── get_next_line     ファイルディスクリプタから1行ずつ読み込む関数
 │   └── push_swap         スタックを使ったソートアルゴリズム（ペア課題）
 └── milestone02/
-    ├── python_module/    Pythonピスキン課題（module00〜module10）
+    ├── python_module/    Pythonピシン課題（module00〜module10）
     ├── a_maze_ing        迷路生成・探索プログラム（ペア課題）
     └── born2beroot       Debianサーバー構築によるシステム管理基礎課題
 ```
