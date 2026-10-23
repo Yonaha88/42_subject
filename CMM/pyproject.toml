@@ -1,0 +1,27 @@
+[project]
+name = "callmemaybe"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "llm-sdk",
+    "numpy>=2.2.6",
+    "pydantic>=2.13.5",
+]
+
+[dependency-groups]
+dev = [
+    "flake8>=7.4.1",
+    "mypy>=2.3.1",
+    "pytest>=9.1.1",
+]
+
+[tool.uv.sources]
+llm-sdk = { path = "llm_sdk" }
+
+[tool.mypy]
+# llm_sdk/ sits next to src/, so mypy would take that folder for the package.
+namespace_packages = false
+
+[[tool.mypy.overrides]]
+module = "llm_sdk"
+ignore_missing_imports = true
