@@ -18,7 +18,8 @@
 │   └── born2beroot       Debianサーバー構築によるシステム管理基礎課題
 └── milestone03/
     ├── flyin             複数ドローンの経路計画シミュレーター
-    └── CallMeMaybe       自然言語の要求を関数呼び出し(JSON)に変換するLLMプログラム
+    ├── CallMeMaybe       自然言語の要求を関数呼び出し(JSON)に変換するLLMプログラム
+    └── Codexion          POSIXスレッドによる共有リソース競合の並行シミュレーション
 ```
 
 ## Milestone 00
@@ -49,6 +50,7 @@
 | --- | --- |
 | [flyin](milestone03/flyin) | 定員つきのゾーンと接続からなるマップで、全ドローンを最小ターン数でゴールへ運ぶ経路計画。予約表と (ゾーン, ターン) の A* で1機ずつ計画する |
 | [CallMeMaybe](milestone03/CallMeMaybe) | 自然言語の要求を、関数名と引数からなる関数呼び出し(JSON)に変換する。LLMの出力を制約付きデコーディングで制御する |
+| [Codexion](milestone03/Codexion) | 円卓に座ったcoderスレッドが両隣と共有するdongleを2本取り合い、compile→debug→refactorを繰り返す並行シミュレーション。mutex/条件変数とFIFO・EDFのスケジューリング、クールダウン、burnout監視を実装 |
 
 ## Author
 
