@@ -16,10 +16,12 @@
 │   ├── python_module/    Pythonピシン課題（module00〜module10）
 │   ├── a_maze_ing        迷路生成・探索プログラム（ペア課題）
 │   └── born2beroot       Debianサーバー構築によるシステム管理基礎課題
-└── milestone03/
-    ├── flyin             複数ドローンの経路計画シミュレーター
-    ├── CallMeMaybe       自然言語の要求を関数呼び出し(JSON)に変換するLLMプログラム
-    └── Codexion          POSIXスレッドによる共有リソース競合の並行シミュレーション
+├── milestone03/
+│   ├── flyin             複数ドローンの経路計画シミュレーター
+│   ├── CallMeMaybe       自然言語の要求を関数呼び出し(JSON)に変換するLLMプログラム
+│   └── Codexion          POSIXスレッドによる共有リソース競合の並行シミュレーション
+└── milestone04/
+    └── NetPractice       IPアドレス・サブネットマスク・ルーティングの設定演習
 ```
 
 ## Milestone 00
@@ -51,6 +53,12 @@
 | [flyin](milestone03/flyin) | 定員つきのゾーンと接続からなるマップで、全ドローンを最小ターン数でゴールへ運ぶ経路計画。予約表と (ゾーン, ターン) の A* で1機ずつ計画する |
 | [CallMeMaybe](milestone03/CallMeMaybe) | 自然言語の要求を、関数名と引数からなる関数呼び出し(JSON)に変換する。LLMの出力を制約付きデコーディングで制御する |
 | [Codexion](milestone03/Codexion) | 円卓に座ったcoderスレッドが両隣と共有するdongleを2本取り合い、compile→debug→refactorを繰り返す並行シミュレーション。mutex/条件変数とFIFO・EDFのスケジューリング、クールダウン、burnout監視を実装 |
+
+## Milestone 04
+
+| 課題 | 概要 |
+| --- | --- |
+| [NetPractice](milestone04/NetPractice) | 動かない小さなネットワークの IP アドレス・サブネットマスク・ルーティングテーブルを修正して通信を成立させる全10レベルの演習。TCP/IP アドレッシングの基礎を学ぶ |
 
 ## Author
 
