@@ -21,7 +21,9 @@
 │   ├── CallMeMaybe       自然言語の要求を関数呼び出し(JSON)に変換するLLMプログラム
 │   └── Codexion          POSIXスレッドによる共有リソース競合の並行シミュレーション
 └── milestone04/
-    └── NetPractice       IPアドレス・サブネットマスク・ルーティングの設定演習
+    ├── NetPractice       IPアドレス・サブネットマスク・ルーティングの設定演習
+    ├── RAGAgainstTheMachine  vLLMのコードベースに答えるRAG（検索拡張生成）システム
+    └── PacMan            迷路生成器の上に作るパックマン風ゲーム（ペア課題）
 ```
 
 ## Milestone 00
@@ -59,6 +61,8 @@
 | 課題 | 概要 |
 | --- | --- |
 | [NetPractice](milestone04/NetPractice) | 動かない小さなネットワークの IP アドレス・サブネットマスク・ルーティングテーブルを修正して通信を成立させる全10レベルの演習。TCP/IP アドレッシングの基礎を学ぶ |
+| [RAGAgainstTheMachine](milestone04/RAGAgainstTheMachine) | vLLM のリポジトリについての質問に答える RAG システム。BM25 をスクラッチで実装して関連箇所を検索し、プロンプトに埋め込んで Qwen3-0.6B に回答を生成させる |
+| [PacMan](milestone04/PacMan) | 他グループ製の迷路生成器を使い、MLX 相当の関数に制限した pygame-ce で作るパックマン風ゲーム。設定ファイルを編集してもトレースバックを出さない堅牢さを重視（ペア課題） |
 
 ## Author
 
